@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /**
  * Dummy Data Generation
  * Uses realistic data structure similar to DummyJSON

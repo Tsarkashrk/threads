@@ -49,10 +49,7 @@ export function PostCard({ post, onClick }: PostCardProps) {
         borderColor: theme === 'light' ? '#E5E7EB' : '#374151',
       }}>
       <div className="flex justify-between items-start mb-3 gap-2">
-        <div 
-          className="flex items-center gap-2 cursor-pointer hover:opacity-70 transition-opacity"
-          onClick={handleAuthorClick}
-        >
+        <div className="flex items-center gap-2 cursor-pointer hover:opacity-70 transition-opacity" onClick={handleAuthorClick}>
           <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-linear-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-xs sm:text-sm font-semibold overflow-hidden">{isLoadingAuthor ? 'U' : postAuthor?.image ? <img src={postAuthor.image} alt={postAuthor.firstName} className="w-full h-full object-cover" /> : postAuthor?.firstName?.[0]?.toUpperCase() || 'U'}</div>
           <div data-testid="post-author">
             <span data-testid="author-name" className="font-semibold text-sm" style={{ color: theme === 'light' ? '#111827' : '#FFFFFF' }}>
