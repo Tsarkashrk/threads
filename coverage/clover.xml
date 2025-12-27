@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1766821889073" clover="3.2.0">
+  <project timestamp="1766821889073" name="All files">
+    <metrics statements="135" coveredstatements="105" conditionals="154" coveredconditionals="86" methods="42" coveredmethods="20" elements="331" coveredelements="211" complexity="0" loc="135" ncloc="135" packages="13" files="23" classes="23"/>
+    <package name="features.comment-form">
+      <metrics statements="27" coveredstatements="23" conditionals="33" coveredconditionals="24" methods="4" coveredmethods="4"/>
+      <file name="CommentForm.tsx" path="/Users/tsarevich/web/threads/src/features/comment-form/CommentForm.tsx">
+        <metrics statements="27" coveredstatements="23" conditionals="33" coveredconditionals="24" methods="4" coveredmethods="4"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="92" type="stmt"/>
+        <line num="21" count="92" type="stmt"/>
+        <line num="22" count="92" type="stmt"/>
+        <line num="23" count="92" type="stmt"/>
+        <line num="24" count="92" type="stmt"/>
+        <line num="26" count="92" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="30" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="35" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
+        <line num="41" count="5" type="stmt"/>
+        <line num="42" count="5" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="45" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="51" count="92" type="stmt"/>
+        <line num="69" count="74" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/tsarevich/web/threads/src/shared/index.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.const">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="api.ts" path="/Users/tsarevich/web/threads/src/shared/const/api.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/tsarevich/web/threads/src/shared/const/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.context">
+      <metrics statements="30" coveredstatements="25" conditionals="10" coveredconditionals="5" methods="9" coveredmethods="6"/>
+      <file name="ThemeProvider.tsx" path="/Users/tsarevich/web/threads/src/shared/context/ThemeProvider.tsx">
+        <metrics statements="19" coveredstatements="15" conditionals="8" coveredconditionals="4" methods="6" coveredmethods="3"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="43" type="stmt"/>
+        <line num="12" count="43" type="stmt"/>
+        <line num="13" count="43" type="cond" truecount="3" falsecount="1"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="43" type="stmt"/>
+        <line num="20" count="43" type="stmt"/>
+        <line num="22" count="43" type="stmt"/>
+        <line num="25" count="43" type="stmt"/>
+        <line num="26" count="43" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="43" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="43" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="37" count="43" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="41" count="43" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/tsarevich/web/threads/src/shared/context/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="47" type="stmt"/>
+        <line num="6" count="183" type="stmt"/>
+      </file>
+      <file name="theme.ts" path="/Users/tsarevich/web/threads/src/shared/context/theme.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+      <file name="useTheme.ts" path="/Users/tsarevich/web/threads/src/shared/context/useTheme.ts">
+        <metrics statements="7" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="179" type="stmt"/>
+        <line num="10" count="179" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="179" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.icons">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="ThreadsIcon.tsx" path="/Users/tsarevich/web/threads/src/shared/icons/ThreadsIcon.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/tsarevich/web/threads/src/shared/icons/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.lib">
+      <metrics statements="18" coveredstatements="4" conditionals="10" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="helpers.ts" path="/Users/tsarevich/web/threads/src/shared/lib/helpers.ts">
+        <metrics statements="17" coveredstatements="3" conditionals="10" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/tsarevich/web/threads/src/shared/lib/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.ui">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="index.ts" path="/Users/tsarevich/web/threads/src/shared/ui/index.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <line num="4" count="55" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.ui.avatar">
+      <metrics statements="4" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="Avatar.tsx" path="/Users/tsarevich/web/threads/src/shared/ui/avatar/Avatar.tsx">
+        <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="2" type="cond" truecount="0" falsecount="2"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/tsarevich/web/threads/src/shared/ui/avatar/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.ui.button">
+      <metrics statements="12" coveredstatements="12" conditionals="13" coveredconditionals="11" methods="3" coveredmethods="3"/>
+      <file name="Button.tsx" path="/Users/tsarevich/web/threads/src/shared/ui/button/Button.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="13" coveredconditionals="11" methods="2" coveredmethods="2"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="12" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="60" type="stmt"/>
+        <line num="15" count="60" type="stmt"/>
+        <line num="16" count="60" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="59" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="58" type="stmt"/>
+        <line num="21" count="60" type="stmt"/>
+        <line num="22" count="60" type="stmt"/>
+        <line num="23" count="60" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="60" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/tsarevich/web/threads/src/shared/ui/button/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="55" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.ui.input">
+      <metrics statements="4" coveredstatements="4" conditionals="9" coveredconditionals="8" methods="3" coveredmethods="2"/>
+      <file name="Input.tsx" path="/Users/tsarevich/web/threads/src/shared/ui/input/Input.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="9" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="14" count="3" type="cond" truecount="4" falsecount="1"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="21" count="9" type="cond" truecount="4" falsecount="0"/>
+      </file>
+      <file name="index.ts" path="/Users/tsarevich/web/threads/src/shared/ui/input/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.ui.modal">
+      <metrics statements="6" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="Modal.tsx" path="/Users/tsarevich/web/threads/src/shared/ui/modal/Modal.tsx">
+        <metrics statements="5" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/tsarevich/web/threads/src/shared/ui/modal/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="widgets.comment-card">
+      <metrics statements="5" coveredstatements="5" conditionals="20" coveredconditionals="14" methods="1" coveredmethods="1"/>
+      <file name="CommentCard.tsx" path="/Users/tsarevich/web/threads/src/widgets/comment-card/CommentCard.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="20" coveredconditionals="14" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="14" type="stmt"/>
+        <line num="21" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="widgets.post-card">
+      <metrics statements="14" coveredstatements="13" conditionals="55" coveredconditionals="24" methods="3" coveredmethods="3"/>
+      <file name="PostCard.tsx" path="/Users/tsarevich/web/threads/src/widgets/post-card/PostCard.tsx">
+        <metrics statements="14" coveredstatements="13" conditionals="55" coveredconditionals="24" methods="3" coveredmethods="3"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="13" type="stmt"/>
+        <line num="22" count="13" type="stmt"/>
+        <line num="24" count="13" type="stmt"/>
+        <line num="25" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="28" count="11" type="stmt"/>
+        <line num="29" count="11" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="35" count="13" type="stmt"/>
+        <line num="71" count="22" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

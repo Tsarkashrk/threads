@@ -1,0 +1,101 @@
+.user-profile {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  .user-profile {
+    background: #1f2937;
+    border-color: #374151;
+  }
+}
+
+.profile-header {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-info h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #111827;
+}
+
+@media (prefers-color-scheme: dark) {
+  .profile-info h2 {
+    color: #f3f4f6;
+  }
+}
+
+.username {
+  margin: 0.25rem 0 0.5rem 0;
+  color: #666;
+}
+
+@media (prefers-color-scheme: dark) {
+  .username {
+    color: #9ca3af;
+  }
+}
+
+.bio {
+  margin: 0;
+  color: #666;
+  font-size: 0.875rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .bio {
+    color: #9ca3af;
+  }
+}
+
+.profile-stats {
+  display: flex;
+  gap: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+@media (prefers-color-scheme: dark) {
+  .profile-stats {
+    border-top-color: #374151;
+  }
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.stat-value {
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #111827;
+}
+
+@media (prefers-color-scheme: dark) {
+  .stat-value {
+    color: #f3f4f6;
+  }
+}
+
+.stat-label {
+  color: #666;
+  font-size: 0.875rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .stat-label {
+    color: #9ca3af;
+  }
+}

@@ -1,0 +1,1 @@
+export { ThreadsIcon } from './ThreadsIcon'
